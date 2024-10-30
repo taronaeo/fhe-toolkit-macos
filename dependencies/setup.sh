@@ -230,7 +230,7 @@ build_hdf5()
     {
         CURRENT_DIR=`pwd`
         if [ ! -s ${CURRENT_DIR}/cmake-hdf5-${HDF5_VERSION}.tar.gz ]; then
-            curl -k -L -o ${CURRENT_DIR}/cmake-hdf5-${HDF5_VERSION}.tar.gz "https://www.hdfgroup.org/package/cmake-hdf5-${HDF5_VERSION}-tar-gz/?wpdmdl=14580&refresh=5f19d44b903561595528267"
+            curl -k -L -o ${CURRENT_DIR}/cmake-hdf5-${HDF5_VERSION}.tar.gz "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.12/hdf5-1.12.0/src/CMake-hdf5-1.12.0.tar.gz"
         fi
         tar xvzf "cmake-hdf5-1-12-0.tar.gz"
     }
